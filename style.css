@@ -1,1 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container{
+    display: grid;
+    grid-template-rows: 5vh 1fr 5vh;
+}
+
+header, main, footer {
+    border: 1px solid black
+}
+
+.posicao{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+} 
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+}
+main>*{
+    border: 1px solid black
+
+}
+
+
+/* header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+    border:1px solid black;
+    padding:1rem;
+}
+button{
+    margin-left: 90%;
+}   */
+
+
 
